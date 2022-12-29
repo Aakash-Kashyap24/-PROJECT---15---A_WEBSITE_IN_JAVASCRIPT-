@@ -1,0 +1,782 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+
+
+    --primary-color: #9A5CFF;
+    --secondary-color: #F1B457;
+    --text-white-color: #ffffff;
+
+    --text-color: #7ECF57;
+    --dark-text-color: #0D103C;
+    --div-box-color: #FFFFFF;
+    --div-dark-background-color: #030F26;
+    --div-white-background-color: #EEEEF9;
+
+    --scren-size: 1380px;
+    --padding-inline: 15px;
+
+}
+
+body {
+    background-color: var(--div-white-background-color);
+}
+
+button:hover {
+    background: var(--text-color);
+    color: white;
+    transition: 1s;
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--dark-text-color));
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--dark-text-color);
+
+
+}
+
+h3 {
+    font-size: 1rem;
+    color: var(--dark-text-color);
+
+
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-white-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-white-color);
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+/* .......................................nav */
+section {
+    /* position: relative;
+    top: 75px ;
+    bottom: 75px; */
+    margin: 75px 0px;
+    background-color: var(--div-white-background-color);
+}
+
+.container {
+    max-width: var(--scren-size);
+    margin-inline: auto;
+    padding-inline: var(--padding-inline);
+
+}
+
+nav {
+    background: var(--div-dark-background-color);
+    padding: var(--padding-inline);
+
+}
+
+ul {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+ul a {
+    padding: var(--padding-inline);
+
+
+}
+
+.nav-sections {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+/* .nav-left-section {
+    width: 20%;
+} */
+
+.nav-right-section {
+    width: 100%;
+}
+
+.nav-hover:hover:hover {
+    color: var(--primary-color);
+    transition: 1s;
+}
+
+.nav-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.nav-select {
+    margin: var(--padding-inline);
+    background: 0;
+    /* color: var(--text-white-color); */
+    font-size: 1rem;
+    color: var(--text-color);
+    border: 0;
+    cursor: pointer;
+}
+
+.nav-button {
+    width: 200px;
+    height: 50%;
+    cursor: pointer;
+    border: 0;
+    background: var(--primary-color);
+    color: var(--text-white-color);
+    font-size: 1.1rem;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+
+
+
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+/* .......................................................................header */
+
+header {
+    background: var(--div-dark-background-color);
+}
+
+header .header-section {
+    background: url('Images/BG-2.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+header h1 {
+    color: var(--text-white-color);
+}
+
+header h2 {
+    color: var(--text-white-color);
+}
+
+header .header-all-divs {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* align-items: center; */
+
+
+}
+
+header .header-left-div {
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+
+}
+
+header .header-right-div {
+
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+    align-items: flex-end;
+    width: 50%;
+
+}
+
+header .header-first-h2 {
+
+    color: var(--text-color);
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    padding-inline: 15px 0px 15px 0px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    padding: 5px 0px;
+    margin: 15px 0px;
+}
+
+header .header-second-h2 {
+    font-size: 1.5rem;
+    margin: 15px 0px;
+    font-size: 1.5rem;
+    padding-inline: 15px 0px 15px 0px;
+}
+
+header p {
+    margin: 15px 0px;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+}
+
+.header-right-div img {
+    height: 90%;
+}
+
+header .header-buttons {
+    margin-top: 15px;
+}
+
+header button {
+    height: 50px;
+    cursor: pointer;
+    width: 180px;
+    border-radius: 100px;
+    margin: 0px 15px 0px 0px;
+    background: var(--primary-color);
+    color: var(--text-white-color);
+    border: 0;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+header .headers-right-button {
+    background: 0;
+
+    margin: 0px 15px;
+    border: 2px solid var(--secondary-color);
+    color: var(--text-color);
+}
+
+header button:hover {
+    background: var(--secondary-color);
+    color: var(--text-white-color);
+    transition: 1s;
+}
+
+
+
+
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+/* .............................clients-section */
+
+.clients-container {
+    position: relative;
+    top: 00px;
+    color: var(--dark-text-color);
+    display: flex;
+    flex-wrap: wrap;
+
+    /* padding-top: 100px; */
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.clients-container .clients-discription {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 110%;
+    margin: 10px 0px 25px 0px;
+}
+
+.clients-container p {
+    color: var(--dark-text-color);
+}
+
+.clients-container h1 {
+    color: var(--dark-text-color);
+
+}
+
+.clients-container h2 {
+    color: var(--dark-text-color);
+
+}
+
+.clients-container .clientsDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-inline: auto; */
+
+}
+
+.clients-container .clientsdivBoxes {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+
+
+    flex-wrap: wrap;
+
+}
+
+.clients-container .clientsdivBoxes p {
+    margin: 20px 0px;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+/* ...............................service-section */
+
+
+.service-container {
+
+    position: relative;
+    /* top: 00px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-bottom: 50px; */
+
+
+
+    /* padding-top: 100px; */
+}
+
+.service-container h1 {
+    color: #030F26;
+
+    font-size: 2rem;
+}
+
+.service-container h2 {
+    color: var(--text-color);
+
+}
+
+.service-container p {
+    color: #030F26;
+
+    margin-top: 25px;
+}
+
+.service-container h3 {
+    color: #030F26;
+
+}
+
+.service-container .serviceDivs {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.service-container .serviceFirstDiv {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.service-container .serviceFirstDiv h1 {
+    font-size: 3rem;
+    margin: 15px 0px;
+}
+
+.service-container .serviceSecondDiv {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* padding: var(--padding-inline); */
+    gap: 15px;
+}
+
+.service-container .service-button {
+    width: 200px;
+    height: 50px;
+    margin: 25px 0px;
+    border: 0;
+    background: #0D103C;
+    color: white;
+    border-radius: 60px;
+
+    button:hover {
+        background: var(--text-color);
+        color: white;
+        transition: 1s;
+    }
+}
+
+.service-container .service-second-Div-boxes {
+    width: 48%;
+    padding: var(--padding-inline);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+
+
+.service-container .service-image-box {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px 0px;
+    border: 0;
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.service-container .service-image-box1 {
+    background: rgb(231, 86, 86);
+
+}
+
+.service-container .service-image-box2 {
+    background: var(--text-color);
+
+}
+
+.service-container .service-image-box3 {
+    background: var(--text-color);
+
+
+}
+
+.service-button:hover {
+    background: var(--text-color);
+    color: white;
+    transition: 1s;
+    border: 0;
+}
+
+.service-container .service-image-box img {
+    height: 40px;
+}
+
+.service-container .service-image-box4 {
+    background: rgb(231, 86, 86);
+
+
+}
+
+
+
+
+
+
+
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+/* ..................................skills-section */
+.skills-section {
+    width: 100%;
+    background: url('Images/BG-2.png') var(--div-dark-background-color);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    background-attachment: scroll;
+    /* background: ; */
+}
+
+.skill-container {
+    display: flex;
+
+
+
+    position: relative;
+    /* padding-top: 100px;
+    padding-bottom: 50px; */
+
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    /* align-content: space-between; */
+}
+
+.skill-container p {
+    color: var(--text-white-color);
+    margin: 25px 0px;
+    text-align: center;
+    padding: 10px 105px;
+    word-spacing: 4px;
+    line-height: 150%;
+}
+
+.skill-container h1 {
+    margin: 10px 0px;
+    color: var(--text-white-color);
+
+}
+
+.skill-container h2 {
+    color: var(--text-white-color);
+    font-size: 1.2rem;
+    text-align: start;
+
+}
+
+.skill-container h3 {
+    margin: 10px 0px;
+    color: var(--text-white-color);
+
+
+}
+
+.skillGraphs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillgraphsBoxes {
+    width: 48%;
+    padding: 15px 0px;
+}
+
+.skills-graph-main-box {
+    height: 20px;
+    background: white;
+    margin: 10px 0px;
+    border-radius: 100px;
+}
+
+.skill-graph-small-box {
+
+    height: 20px;
+    background: green;
+    border-radius: 100px;
+    width: 75%;
+}
+
+
+
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+/* ...........................................footer-section */
+
+footer {
+    background: var(--div-dark-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0px;
+}
+
+.footer-container .footLogos {
+    display: flex;
+}
+
+.footer-container p {
+    max-width: 60%;
+
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 200%;
+    word-spacing: 120%;
+    line-height: 240%;
+    margin: 25px 0px;
+}
+
+.footer-container img {
+    width: 200px;
+    margin: 25px 0px 0px 0px;
+}
+
+.footer-container .footLogos img {
+
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.footer-container .logoBox {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    background-color: wheat;
+    margin: 0px 15px;
+    border-radius: 50%;
+}
+
+.footer-container .logoBox:hover{
+    background: var(--text-color);
+    transition: 1s;
+}
